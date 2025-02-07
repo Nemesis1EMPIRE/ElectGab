@@ -30,21 +30,21 @@ const candidatesData = [
     name: 'Brice OLIGUI', 
     image: require('./assets/Brice.png'), 
     details: 'Expérience politique : 10 ans...', 
-    video: require('./assets/candidate1.mp4') 
+    video: require('./assets/story.mp4') 
   },
   { 
     id: '2', 
     name: 'MANFOUMBI', 
     image: require('./assets/Colonel MANFOUMBI MANFOUMBI.webp'), 
     details: 'Programme axé sur l\'économie...', 
-    video: require('./assets/candidate2.mp4') 
+    video: require('./assets/story.mp4') 
   },
   { 
     id: '3', 
     name: 'ONDO OSSA', 
     image: require('./assets/ondo.png'), 
     details: 'Engagement pour la jeunesse...', 
-    video: require('./assets/candidate3.mp4') 
+    video: require('./assets/story.mp4') 
   },
 ];
 
