@@ -2,3 +2,10 @@
   "name": "NewProject",
   "displayName": "NewProject"
 }
+{
+  "expo": {
+    "plugins": [
+      ["@react-native-google-maps/react-native-maps", { "useGoogleMaps": false }]
+    ]
+  }
+}
