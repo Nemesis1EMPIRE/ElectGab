@@ -6,14 +6,21 @@ workflows:
     environment:
       groups:
         - google_play
+      cache:
+        cache_paths:
+          - ~/.npm
       vars:
         PACKAGE_NAME: "io.codemagic.sample.reactnative"
     scripts:
+      - name: Update dependencies manually
+        script: | 
+          npm install react-native-paper@latest --save
       - name: Set Android SDK location
         script: | 
           echo "sdk.dir=$ANDROID_SDK_ROOT" > "$CM_BUILD_DIR/android/local.properties"
       - name: Install npm dependencies
         script: | 
+          rm -rf node_modules package-lock.json
           npm install
       - name: Run Expo Prebuild
         script: | 
