@@ -16,8 +16,8 @@ const newsData = [
   { id: '6', image: require('./assets/images/all.png'), pdf: require('./assets/pdfs/elect.pdf'), title: 'Réformes politiques' },
 ];
 const videoData = [
-  { id: '1', source: require('./assets/video1.mp4'), title: 'Décryptage des débats' },
-  { id: '2', source: require('./assets/video.mp4'), title: 'Analyse des programmes' },
+  { id: '1', source: require('./assets/vid/video1.mp4'), title: 'Décryptage des débats' },
+  { id: '2', source: require('./assets/vid/video.mp4'), title: 'Analyse des programmes' },
 ];
 const lawsData = [
   { id: '1', title: 'Loi éloctorale', pdf: require('./assets/Journal Officiel_n°51 Ter du 22 janvier 2025_Code Electoral_22h.pdf') },
