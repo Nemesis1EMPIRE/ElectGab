@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, Image, StyleSheet, FlatList, TouchableOpacity, Linking, TextInput, Button, Modal } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
+import ReactNativePdf from 'react-native-pdf';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import { Video } from 'expo-av';
 
