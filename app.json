@@ -1,6 +1,12 @@
 {
   "expo": {
-    "name": "NewProject",
-    "displayName": "NewProject"
+    "name": "MyApp",
+    "slug": "myapp",
+    "platforms": ["android"],
+    "android": {
+      "package": "com.myapp",
+      "versionCode": 1
+    },
+    "plugins": []
   }
 }
