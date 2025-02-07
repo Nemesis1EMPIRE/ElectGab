@@ -2,8 +2,8 @@ buildscript {
     ext {
         buildToolsVersion = "30.0.3" // Ajusté à une version stable
         minSdkVersion = 21
-        compileSdkVersion = 30
-        targetSdkVersion = 30
+        compileSdkVersion = 35
+        targetSdkVersion = 35
         ndkVersion = "21.3.6528147"
         kotlinVersion = "1.8.0"  // Kotlin stable
     }
